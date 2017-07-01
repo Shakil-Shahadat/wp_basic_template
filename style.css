@@ -1,0 +1,27 @@
+header, main, aside, footer
+{
+	border: 1px solid lightgrey;
+}
+header, footer, .wraper-for-main-aside
+{
+	width: 1200px;
+	margin: auto;
+}
+nav li
+{
+	display: inline;
+}
+main
+{
+	width: 900px;
+	float: left;
+}
+aside
+{
+	width: 296px;
+	float: left;
+}
+footer
+{
+	clear: left;
+}

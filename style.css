@@ -1,11 +1,12 @@
-header, main, aside, footer
-{
-	border: 1px solid lightgrey;
-}
-header, footer, .wraper-for-main-aside
+.container
 {
 	width: 1200px;
 	margin: auto;
+}
+header, main, aside, footer
+{
+	border: 1px solid lightgrey;
+	padding: 35px;
 }
 nav li
 {
@@ -13,12 +14,12 @@ nav li
 }
 main
 {
-	width: 900px;
+	width: 840px;
 	float: left;
 }
 aside
 {
-	width: 296px;
+	width: 216px;
 	float: left;
 }
 footer

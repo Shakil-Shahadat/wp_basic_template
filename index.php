@@ -6,8 +6,11 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div class="container">
+
 	<header>
-		<h1>Site Header</h1>
+		<h1>Header</h1>
 		<nav>
 			<ul>
 				<li><a href="#">Home</a></li>
@@ -17,21 +20,22 @@
 		</nav>
 	</header>
 
-	<div class="wraper-for-main-aside">
-		<main>
-			<h2>Main Content</h2>
-			This is main content area.
-		</main>
+	<main>
+		<h2>Main Content</h2>
+		This is the main content area.
+	</main>
 
-		<aside>
-			<h2>Sidebar</h2>
-			This is a sidebar area.
-		</aside>
-	</div>
+	<aside>
+		<h2>Sidebar</h2>
+		This is the sidebar area.
+	</aside>
 
 	<footer>
-		<h2>Footer Area</h2>
-		This is a footer area.
+		<h2>Footer</h2>
+		This is the footer area.
 	</footer>
+
+</div> <!-- .container END -->
+
 </body>
 </html>

@@ -7,22 +7,21 @@ header, main, aside, footer
 {
 	border: 1px solid lightgrey;
 	padding: 35px;
+	margin: 10px;
 }
 nav li
 {
 	display: inline;
 }
+.wraper
+{
+	display: flex;
+}
 main
 {
 	width: 840px;
-	float: left;
 }
 aside
 {
 	width: 216px;
-	float: left;
-}
-footer
-{
-	clear: left;
 }

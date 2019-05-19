@@ -10,6 +10,7 @@
 <div class="container">
 
 	<header>
+
 		<h1>Header</h1>
 		<nav>
 			<ul>
@@ -18,17 +19,22 @@
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
+
 	</header>
 
-	<main>
-		<h2>Main Content</h2>
-		This is the main content area.
-	</main>
+	<div class="wraper">
 
-	<aside>
-		<h2>Sidebar</h2>
-		This is the sidebar area.
-	</aside>
+		<main>
+			<h2>Main Content</h2>
+			This is the main content area.
+		</main>
+
+		<aside>
+			<h2>Sidebar</h2>
+			This is the sidebar area.
+		</aside>
+
+	</div> <!-- .wraper END -->
 
 	<footer>
 		<h2>Footer</h2>
